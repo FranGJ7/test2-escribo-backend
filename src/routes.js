@@ -4,6 +4,9 @@ import bcrypt from "bcrypt";
 import { v4 as uuidv4 } from 'uuid';
 import User from "./models/User";
 import verificaToken from "./middlewares/token" 
+import 'dotenv/config'
+
+const secret = process.env.SECRETKEY
 
 
 export const routes = express.Router();
@@ -22,7 +25,7 @@ routes.post('/register', async (req, res) => {
   
   const hashedPassword = await bcrypt.hash(password, saltRounds);
 
-  const token = jwt.sign({ id: id }, 'your-secret-key', { expiresIn: '30m' });
+  const token = jwt.sign({ id: id }, secret, { expiresIn: '30m' });
 
   try {
     const user = new User({
@@ -71,7 +74,7 @@ routes.post('/login', async (req, res) => {
     user.lastLogin = lastDateLogin;
     await user.save();
 
-    const token = jwt.sign({ id: user._id }, 'your-secret-key', { expiresIn: '30m' });
+    const token = jwt.sign({ id: user._id }, secret, { expiresIn: '1m' });
 
     const jsonInfoUser = {
       id: user._id,

@@ -1,7 +1,7 @@
 import connectingDB from "./config/database"
 import cors from "cors"
 import express, { Router } from "express"
-import { routes } from "./src/routes"
+import { routes } from "./routes"
 
 
 const app = express()
