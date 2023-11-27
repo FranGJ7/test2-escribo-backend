@@ -23,13 +23,17 @@
     <li><strong>confirmPassword</strong>: Confirmação da senha do usuário.</li>
 </ul>
 
-<ul>
-    <li><strong>name</strong>: Nome do usuário.</li>
-    <li><strong>email</strong>: Endereço de e-mail do usuário.</li>
-    <li><strong>telephone</strong>: Número de telefone do usuário.</li>
-    <li><strong>password</strong>: Senha do usuário (entre 6 e 16 caracteres).</li>
-    <li><strong>confirmPassword</strong>: Confirmação da senha do usuário.</li>
-</ul>
+<pre>
+<code>
+{
+    "name": "Nome do Usuário",
+    "email": "usuario@example.com",
+    "telephone": "123456789",
+    "password": "senha123",
+    "confirmPassword": "senha123"
+}
+</code>
+</pre>
 
 <p><strong>Método:</strong> POST</p>
 <p><strong>URL:</strong> <a href="https://test2-escribo-backend.onrender.com/login">https://test2-escribo-backend.onrender.com/login</a></p>
