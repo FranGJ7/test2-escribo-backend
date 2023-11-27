@@ -28,7 +28,9 @@
 {
     "name": "Nome do Usuário",
     "email": "usuario@example.com",
-    "telephone": "123456789",
+     "telephone": [
+        { "ddd": "11", "number": "123456789" }
+    ]
     "password": "senha123",
     "confirmPassword": "senha123"
 }
@@ -50,9 +52,8 @@
 <code>
 {
     "email": "usuario@example.com",
-    "telephone": [
-        { "ddd": "11", "number": "123456789" }
-    ]
+    "password": "senha123"
+
 }
 </code>
 </pre>
