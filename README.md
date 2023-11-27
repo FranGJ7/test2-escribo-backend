@@ -61,7 +61,7 @@
 
 <h2>3. Obter Informações do Usuário Autenticado</h2>
 
-<p><strong>Método:</strong> POST</p>
+<p><strong>Método:</strong> GET</p>
 <p><strong>URL:</strong> <a href="https://test2-escribo-backend.onrender.com/auth">https://test2-escribo-backend.onrender.com/auth</a></p>
 
 <ul>
