@@ -23,7 +23,13 @@
     <li><strong>confirmPassword</strong>: Confirmação da senha do usuário.</li>
 </ul>
 
-<h2>Exemplo de Solicitação</h2>
+<ul>
+    <li><strong>name</strong>: Nome do usuário.</li>
+    <li><strong>email</strong>: Endereço de e-mail do usuário.</li>
+    <li><strong>telephone</strong>: Número de telefone do usuário.</li>
+    <li><strong>password</strong>: Senha do usuário (entre 6 e 16 caracteres).</li>
+    <li><strong>confirmPassword</strong>: Confirmação da senha do usuário.</li>
+</ul>
 
 <p><strong>Método:</strong> POST</p>
 <p><strong>URL:</strong> <a href="https://test2-escribo-backend.onrender.com/login">https://test2-escribo-backend.onrender.com/login</a></p>
