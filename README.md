@@ -23,30 +23,35 @@
     <li><strong>confirmPassword</strong>: Confirmação da senha do usuário.</li>
 </ul>
 
-<h3>Exemplo de Solicitação</h3>
+<h2>Exemplo de Solicitação</h2>
+
+<p><strong>Método:</strong> POST</p>
+<p><strong>URL:</strong> <a href="https://test2-escribo-backend.onrender.com/login">https://test2-escribo-backend.onrender.com/login</a></p>
+
+<h3>Parâmetros</h3>
+<ul>
+    <li><strong>email</strong>: Endereço de e-mail do usuário.</li>
+    <li><strong>password</strong>: Senha do usuário</li>
+</ul>
+
 <pre>
 <code>
 {
-    "name": "Nome do Usuário",
     "email": "usuario@example.com",
-    "telephone": "123456789",
-    "password": "senha123",
-    "confirmPassword": "senha123"
+    "telephone": [
+        { "ddd": "11", "number": "123456789" }
+    ]
 }
 </code>
 </pre>
 
 <h2>2. Autenticar Usuário</h2>
 
-<!-- Incluir instruções semelhantes para o segundo endpoint -->
+
 
 <h2>3. Obter Informações do Usuário Autenticado</h2>
 
-<!-- Incluir instruções semelhantes para o terceiro endpoint -->
-
-<h2>Observações</h2>
-
 <ul>
-    <li>Certifique-se de incluir o cabeçalho de autorização (<code>Authorization</code>) nas solicitações que requerem autenticação.</li>
+    <li>Incluir Token ao cabeçalho de autorização (<code>Authorization  {{TOKEN}}</code>) nas solicitações que requerem autenticação.</li>
     <li>Utilize o Postman para testar os endpoints da API.</li>
 </ul>
