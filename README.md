@@ -35,6 +35,8 @@
 </code>
 </pre>
 
+<h2>2. Login de usuário.</h2>
+
 <p><strong>Método:</strong> POST</p>
 <p><strong>URL:</strong> <a href="https://test2-escribo-backend.onrender.com/login">https://test2-escribo-backend.onrender.com/login</a></p>
 
@@ -55,13 +57,19 @@
 </code>
 </pre>
 
-<h2>2. Autenticar Usuário</h2>
 
-
-
-<h2>3. Obter Informações do Usuário Autenticado</h2>
+<h2>3. Obter Informações do Usuário Autenticado GET</h2>
 
 <ul>
     <li>Incluir Token ao cabeçalho de autorização (<code>Authorization  {{TOKEN}}</code>) nas solicitações que requerem autenticação.</li>
     <li>Utilize o Postman para testar os endpoints da API.</li>
 </ul>
+
+
+
+
+
+<p><strong>EndPoints Postman</strong></p>
+<p><strong>URL:</strong> <a href="https://gold-comet-159487.postman.co/workspace/Team-Workspace~4fd69320-2000-44cf-8720-201ab6e451b5/collection/21161502-ef6e93c2-fa19-4b3a-8381-bdacad744206?action=share&creator=21161502
+">https://gold-comet-159487.postman.co/workspace/Team-Workspace~4fd69320-2000-44cf-8720-201ab6e451b5/collection/21161502-ef6e93c2-fa19-4b3a-8381-bdacad744206?action=share&creator=21161502
+</a></p>
