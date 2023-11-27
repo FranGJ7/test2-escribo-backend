@@ -12,5 +12,8 @@ const connectingDB = async () => {
   }
 }
 
-export default connectingDB
+export default connectingDB;
+
+
+
 

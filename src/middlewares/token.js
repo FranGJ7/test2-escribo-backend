@@ -4,7 +4,6 @@ const secret = process.env.SECRETKEY
 
 const jwt = require('jsonwebtoken');
 
-
 const verificaToken = (req, res, next) => {
   const token = req.header('Authorization');
 
@@ -18,6 +17,6 @@ const verificaToken = (req, res, next) => {
 
     next();
   });
-}
+};
 
 export default verificaToken;
