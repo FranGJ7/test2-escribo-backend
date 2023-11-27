@@ -59,12 +59,18 @@
 </pre>
 
 
-<h2>3. Obter Informações do Usuário Autenticado GET</h2>
+<h2>3. Obter Informações do Usuário Autenticado</h2>
+
+<p><strong>Método:</strong> POST</p>
+<p><strong>URL:</strong> <a href="https://test2-escribo-backend.onrender.com/auth">https://test2-escribo-backend.onrender.com/auth</a></p>
 
 <ul>
     <li>Incluir Token ao cabeçalho de autorização (<code>Authorization  {{TOKEN}}</code>) nas solicitações que requerem autenticação.</li>
     <li>Utilize o Postman para testar os endpoints da API.</li>
 </ul>
+
+
+ ![Screenshot from 2023-11-27 18-01-47](https://github.com/FranGJ7/test2-escribo-backend/assets/97806169/c799b212-b6f3-4915-a0d1-81b0b481c4aa)
 
 
 
